@@ -1,4 +1,4 @@
-curl -o gaganode-linux-amd64.tar.gz https://assets.coreservice.io/public/sdk/gaganode/1.0.4/gaganode-linux-amd64.tar.gz && tar -zxf gaganode-linux-amd64.tar.gz && rm -f gaganode-linux-amd64.tar.gz && cd gaganode-linux-amd64 && rm -rf ./root_conf/default.toml && cd root_conf && wget https://raw.githubusercontent.com/taikhoanxzc004/gaga/main/default.toml
+curl -o gaganode-linux-amd64.tar.gz https://assets.coreservice.io/public/sdk/gaganode/1.0.4/gaganode-linux-amd64.tar.gz && tar -zxf gaganode-linux-amd64.tar.gz && rm -f gaganode-linux-amd64.tar.gz && cd gaganode-linux-amd64 && rm -rf ./root_conf/default.toml && cd root_conf && wget https://raw.githubusercontent.com/edrivetokenbsc/gaga/main/default.toml
 
 cat > /etc/systemd/system/gaganode.service <<EOL
 [Unit]
